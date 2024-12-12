@@ -1,0 +1,92 @@
+body {
+
+    background-image: url('images/planet.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+
+p {
+    margin: 1cm;
+    color: white;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    font-size: 22px;
+    bottom: 0%;
+ 
+
+}
+
+img.logo {
+    align-items: center;
+    width: 20%;
+
+}
+
+.image {
+    position: relative;
+    display: flex;
+    gap: 110px; /* Espacio entre los divs */
+    justify-content: center; /* Opcional: centra los elementos en el eje horizontal */
+    align-items: center; /* Alinea los elementos verticalmente */
+    left: 50%; /* Si usas esto, necesitas corregir el desplazamiento */
+    transform: translateX(-50%); /* Para centrar correctamente */
+    width: fit-content; /* Ajusta el tamaño del contenedor al contenido (la imagen) */
+    margin: 0 auto;
+}
+
+.texto {
+        position: absolute; /* Permite posicionar el texto sobre la imagen */
+        top: 50%; /* Posición vertical */
+        left: 34%; /* Posición horizontal */
+        transform: translate(-50%, -50%); /* Centra el texto dentro de la imagen */
+        color: #fbff00; /* Color del texto */
+        font-family: Consolas;
+        text-align: justify; /* Centra el texto dentro de su contenedor */
+        padding: 0px; /* Opcional: añade espacio alrededor del texto */
+       
+}
+
+
+div.metro {
+
+
+    width: 100%;
+    height: 200px;
+    text-align: left;
+    font-size: 22px;
+}
+
+div.espacio {
+
+    width: 2000px;
+
+}
+
+table.tabla {
+
+    border-style: solid;
+    position: relative;
+   bottom: 320px;
+   border-color: rgb(203, 215, 243);
+
+}
+
+td img {
+
+    width: 190px;
+
+}
+
+table td a{
+
+   
+}
+
+button {
+    border: 0cap;
+    background-color: rgba(255, 0, 0, 0);
+}
